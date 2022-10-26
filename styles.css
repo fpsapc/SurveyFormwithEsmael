@@ -45,3 +45,20 @@ select{
 padding: 8px;
 margin-bottom: 15px;
 }
+ 
+#checkbox::before{
+    content: "\A";
+    white-space: pre;
+}
+ label{
+    display: block;
+ }
+
+ #computer, #submit{
+  margin-bottom: 5px;  
+ }
+ #submit{
+    display: block;
+    width: 100px;
+    margin: auto;
+ }

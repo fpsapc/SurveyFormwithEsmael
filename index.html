@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,37 +8,59 @@
     <link rel="stylesheet" href="styles.css">
     <title>Survey Form</title>
 </head>
+
 <body>
     <!-- First point -->
-    <h1 id="title">Our Form</h1> 
+    <h1 id="title">Our Form</h1>
     <!-- Second point -->
     <p id="description">Here is our Description paragraph</p>
     <!-- Third point -->
-    <form action="" id="survey-form" >
+    <form action="" id="survey-form">
         <!-- fourth point -->
         <fieldset id="firstSection">
-        <label for="name" id="name-label">Name</label>
-        <input type="text" id="name" name="name" required placeholder="Enter Your Name">
-        <!-- fifth point -->
-        <label for="email" id="email-label">Email</label>
-        <input type="email" id="email" name="email" required placeholder="Enter email address">
-        <!-- sixth point -->
-        <label for="number" id="number-label">Age</label>
-        <input type="number" id="number" min="13" max="120" name="number" placeholder="Enter Your age">
-        <select id="dropdown">
-            <option>Option 1</option>
-            <option>Option 2</option>
-        </select><br>
-    </fieldset>
-         <input type="radio" name="gender" value="Male">Male<br>
-         <input type="radio" name="gender" value="Femal">Femal</br>
+            <label for="name" id="name-label">Name</label>
+            <input type="text" id="name" name="name" required placeholder="Enter Your Name">
+            <!-- fifth point -->
+            <label for="email" id="email-label">Email</label>
+            <input type="email" id="email" name="email" required placeholder="Enter email address">
+            <!-- sixth point -->
+            <label for="number" id="number-label">Age</label>
+            <input type="number" id="number" min="13" max="120" name="number" placeholder="Enter Your age">
+            <label for="dropdown">Dropdown</label>
+            <select id="dropdown">
+                <option>Option 1</option>
+                <option>Option 2</option>
+            </select><br>
+        </fieldset>
+        <fieldset id="gender-section">
+            <label for="gender">Gender</label><br>
+            <input type="radio" name="gender" value="Male">Male<br>
+            <input type="radio" name="gender" value="Femal">Femal</br>
+        </fieldset>
 
-         <input type="checkbox" value="Dell">Dell
-         <input type="checkbox" value="Hp">Hp
-         <input type="checkbox" value="Lenovo">Lenovo
-         <input type="checkbox" value="Macbook">MacBook<br>
-         <textarea name="comment" id="comment" cols="30" rows="10">comment</textarea>
-         <button type="submit" id="submit">submit</button>
+        <fieldset id="computers-section">
+            <label for="checkbox" id="computer">Computers</label>
+            <label>
+                <input type="checkbox" name="dell" id="checkbox" value="Dell">Dell
+            </label>
+
+            <label>
+                <input type="checkbox" id="checkbox" value="Hp">Hp
+            </label>
+
+            <label>
+                <input type="checkbox" id="checkbox" value="Lenovo">Lenovo
+            </label>
+
+
+            <label>
+                <input type="checkbox" id="checkbox" value="Macbook">MacBook
+            </label>
+        </fieldset>
+        <textarea name="comment" id="comment" cols="30" rows="10">comment</textarea>
+        <button type="submit" id="submit">submit</button>
+
     </form>
 </body>
+
 </html>
