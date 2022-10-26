@@ -1,1 +1,47 @@
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    width:100vw;
+    height: 100vh;
+    background-color: rgba(10,10,255,0.5);
+}
+h1,p{
+    display: block;
+    margin: 15px auto;
+    text-align: center;
+    color: white;
+}
+h1{
+    font-size:50px;
+}
+p{
+    font-size:25px;
+}
+form{
+    width:50%;
+    display: block;
+    margin: auto;
+    background-color: rgba(0,0,255,0.8);
+    max-width: 600px;
+    }
+#firstSection{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    padding:10px;
+    margin-bottom: 15px;
+}
+label{
+    color: white;
+    font-weight: bold;
+    font-size:20px
+}
+select{
+padding: 8px;
+margin-bottom: 15px;
+}
