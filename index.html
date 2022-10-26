@@ -9,9 +9,9 @@
 </head>
 <body>
     <!-- First point -->
-    <h1 id="title"></h1> 
+    <h1 id="title">Our Form</h1> 
     <!-- Second point -->
-    <p id="description"></p>
+    <p id="description">Here is our Description paragraph</p>
     <!-- Third point -->
     <form action="" id="survey-form" >
         <!-- fourth point -->
@@ -23,8 +23,20 @@
         <!-- sixth point -->
         <label for="number" id="number-label">Age</label>
         <input type="number" id="number" min="13" max="120" name="number" placeholder="Enter Your age">
-    </form>
+        <select id="dropdown">
+            <option>Option 1</option>
+            <option>Option 2</option>
+        </select><br>
+         <input type="radio" name="gender" value="Male">Male<br>
+         <input type="radio" name="gender" value="Femal">Femal</br>
 
+         <input type="checkbox" value="Dell">Dell
+         <input type="checkbox" value="Hp">Hp
+         <input type="checkbox" value="Lenovo">Lenovo
+         <input type="checkbox" value="Macbook">MacBook<br>
+         <textarea name="comment" id="comment" cols="30" rows="10">comment</textarea>
+         <button type="submit" id="submit">submit</button>
+    </form>
 </body>
 </html>
 <!-- You should have a page title in an h1 element with an id of title
