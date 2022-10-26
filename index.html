@@ -34,30 +34,32 @@
         </fieldset>
         <fieldset id="gender-section">
             <label for="gender">Gender</label><br>
-            <input type="radio" name="gender" value="Male">Male<br>
-            <input type="radio" name="gender" value="Femal">Femal</br>
+            <label for="male">
+            <input class="gender" type="radio" name="gender" value="male" id="male"> Male</label><br>
+            <label for="female">
+            <input class="gender" type="radio" name="gender" value="Female" id="female"> Female</label></br>
         </fieldset>
 
         <fieldset id="computers-section">
             <label for="checkbox" id="computer">Computers</label>
             <label>
-                <input type="checkbox" name="dell" id="checkbox" value="Dell">Dell
+                <input type="checkbox" name="dell" id="checkbox" value="Dell"> Dell
             </label>
 
             <label>
-                <input type="checkbox" id="checkbox" value="Hp">Hp
+                <input type="checkbox" id="checkbox" value="Hp"> Hp
             </label>
 
             <label>
-                <input type="checkbox" id="checkbox" value="Lenovo">Lenovo
+                <input type="checkbox" id="checkbox" value="Lenovo"> Lenovo
             </label>
 
 
             <label>
-                <input type="checkbox" id="checkbox" value="Macbook">MacBook
+                <input type="checkbox" id="checkbox" value="Macbook"> MacBook
             </label>
         </fieldset>
-        <textarea name="comment" id="comment" cols="30" rows="10">comment</textarea>
+        <textarea name="comment" id="comment" cols="30" rows="10" placeholder="comment"></textarea>
         <button type="submit" id="submit">submit</button>
 
     </form>

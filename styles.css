@@ -45,6 +45,9 @@ label{
 select{
 padding: 8px;
 margin-bottom: 15px;
+font-size: 15px;
+color:black;
+font-weight: bold;
 }
  
 #checkbox::before{
@@ -60,6 +63,22 @@ margin-bottom: 15px;
  }
  #submit{
     display: block;
-    width: 100px;
+    width: 100%;
+    height: 40px;
     margin: auto;
+    background-color: green;
+    font-size: 20px;
+    border-radius: 8px;
+    border: 1px solid black;
+    margin-top: 15px;
+    cursor: pointer;
+
  }
+ textarea{
+    width: 100%;
+    font-size: 20px;
+ }
+ fieldset{
+    border: none;
+ }
+ 
